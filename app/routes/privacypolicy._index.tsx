@@ -5,7 +5,7 @@ export const meta: MetaFunction = () => {
     { title: "個人情報保護方針 | FUKUI BAND FISH" },
     {
       name: "description",
-      content: "個人情報保護方針",
+      content: "福井の海で育まれた新鮮な魚介類「FUKUI BRAND FISH」をご紹介します。私たちが厳選した海の恵みを、豊富な種類と鮮度抜群でお届けします。福井の海の味をご家庭でお楽しみいただけるよう、品質にこだわった海産物を提供しています。",
     },
   ];
 };

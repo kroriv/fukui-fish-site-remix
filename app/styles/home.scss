@@ -22,7 +22,7 @@
             @apply lg:w-[45%];
           }
           > span {
-            @apply absolute -top-20 lg:top-0 select-none text-90ptr lg:text-130ptr text-white drop-shadow-lg shadow-gray-600 font-mincho font-thin leading-none tracking-normal whitespace-nowrap -z-10;
+            @apply absolute -top-20 lg:top-0 select-none text-80ptr lg:text-120ptr text-white drop-shadow-lg shadow-gray-600 font-mincho font-thin leading-none tracking-normal whitespace-nowrap -z-10;
           }
           > h3 {
             @apply text-45ptr lg:text-65ptr text-[#4a899f] font-notoserifjp font-normal leading-none tracking-widest z-[10] mb-12 whitespace-nowrap;
@@ -66,7 +66,7 @@
         > div {
           @apply flex flex-col gap-8;
           > div {
-            @apply flex content-center justify-between;
+            @apply flex flex-col gap-y-2 md:flex-row items-start content-start md:content-center justify-between;
             > h3 {
               @apply text-22ptr md:text-28ptr font-notoserifjp block relative pl-12 md:pl-20;
               &:before {
@@ -76,7 +76,7 @@
             > div {
               @apply flex gap-4 justify-center items-center;
               > p {
-                @apply bg-[#294c81] text-white md:text-18ptr font-notoserifjp select-none px-2 py-1;
+                @apply bg-[#294c81] text-white md:text-18ptr font-notoserifjp whitespace-nowrap select-none px-2 py-1;
               }
               > span {
                 @apply font-notoserifjp;

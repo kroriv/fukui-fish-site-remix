@@ -123,8 +123,8 @@ const Figure = ({ ...props }: {
  * @returns 
  */
 const Button = () => (
-  <Link to={ "/" } className={ "group flex gap-4 justify-center items-center w-[92%] md:w-[70%] h-[66px] md:h-[88px] bg-yellow-550 rounded-full hover:bg-blue-550" }>
+  <a href={ "https://app.fukui-sakana.com" } target={ "_blank" } rel={ "noreferrer" } className={ "group flex gap-4 justify-center items-center w-[92%] md:w-[70%] h-[66px] md:h-[88px] bg-yellow-550 rounded-full hover:bg-blue-550" }>
     <span className="block text-blue-550 text-20ptr md:text-24ptr font-bold group-hover:text-white">生産・市場情報を見る</span>
     <Arrow className={ "h-2 md:h-3 stroke-blue-550 group-hover:stroke-white" }/>
-  </Link>
+  </a>
 );
