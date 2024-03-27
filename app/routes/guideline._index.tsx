@@ -17,7 +17,7 @@ export default function Page() {
       <section>
         <div className={ "container content" }>
           <h2 className={ "!text-[120%] whitespace-nowrap" }>ふくいのお魚つながるアプリご利用規約</h2>
-          <p className={ "!text-[80%]" }>株式会社〇〇〇〇（以下「当社」）は、当社が運営・提供するサービス「ふくいのお魚つながるアプリ」（以下「本サービス」）のご利用規約（以下「本規約」）について以下の通り定めます。</p>
+          <p className={ "!text-[80%]" }>福井中央魚市株式会社（以下「当社」）は、当社が運営・提供するサービス「ふくいのお魚つながるアプリ」（以下「本サービス」）のご利用規約（以下「本規約」）について以下の通り定めます。</p>
         </div>
       </section>
       
@@ -145,7 +145,7 @@ export default function Page() {
       
       <section>
         <div className={ "container content" }>
-          <p className={ "!text-[80% text-right" }>株式会社〇〇〇〇</p>
+          <p className={ "!text-[80% text-right" }>福井中央魚市株式会社</p>
         </div>
       </section>
       
