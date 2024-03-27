@@ -1,0 +1,96 @@
+/*----------------------------------------------------------------
+  HOME
+----------------------------------------------------------------*/
+
+#home {
+  @apply overflow-hidden;
+  #home-hero {
+    @apply flex justify-center items-start pt-16 lg:pt-8 pb-32;
+    .wrapper {
+      @apply flex flex-col justify-center items-start gap-20 md:max-w-[1536px];
+      .item {
+        @apply lg:flex gap-20;
+        > div {
+          @apply relative pt-0 lg:pt-20 z-10;
+          &:nth-child(1) {
+            @apply lg:w-[55%];
+            img {
+              @apply drop-shadow-lg;
+            }
+          }
+          &:nth-child(2) {
+            @apply lg:w-[45%];
+          }
+          > span {
+            @apply absolute -top-20 lg:top-0 select-none text-90ptr lg:text-130ptr text-white drop-shadow-lg shadow-gray-600 font-mincho font-thin leading-none tracking-normal whitespace-nowrap -z-10;
+          }
+          > h3 {
+            @apply text-45ptr lg:text-65ptr text-[#4a899f] font-notoserifjp font-normal leading-none tracking-widest z-[10] mb-12 whitespace-nowrap;
+          }
+          > p {
+            @apply text-[#7c7b7b] text-16ptr md:text-20ptr font-notoserifjp leading-loose px-4 lg:px-0;
+          }
+        }
+        &:nth-child(odd) {
+          div {
+            > span {
+              @apply right-0;
+            }
+            > p {
+              @apply lg:pr-24;
+            }
+          }
+        }
+        &:nth-child(even) {
+          @apply flex-row-reverse;
+          div {
+            > span {
+              @apply left-0;
+            }
+            > h3 {
+              @apply lg:pl-24;
+            }
+            > p {
+              @apply lg:pl-24;
+            }
+          }
+        }
+      }
+    }
+  }
+  #home-brand {
+    .container {
+      @apply py-16 md:py-32;
+      > .wrap {
+        @apply grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-24 w-full h-full;
+        > div {
+          @apply flex flex-col gap-8;
+          > div {
+            @apply flex content-center justify-between;
+            > h3 {
+              @apply text-22ptr md:text-28ptr font-notoserifjp block relative pl-12 md:pl-20;
+              &:before {
+                @apply absolute left-0 content-["――"] font-arial -tracking-widest;
+              }
+            }
+            > div {
+              @apply flex gap-4 justify-center items-center;
+              > p {
+                @apply bg-[#294c81] text-white md:text-18ptr font-notoserifjp select-none px-2 py-1;
+              }
+              > span {
+                @apply font-notoserifjp;
+              }
+            }
+          }
+          > p {
+            @apply font-notoserifjp;
+          }
+        }
+      }
+    }
+  }
+  .original-gradient {
+    background-image: linear-gradient(120deg, #deeaf6, rgba(255, 255, 255, 0)), linear-gradient(185deg, #dcebf3, rgba(255, 255, 255, 0)), linear-gradient(340deg, #c3e5fa, rgba(255, 255, 255, 0));
+  }
+}
