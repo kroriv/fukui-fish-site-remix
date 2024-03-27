@@ -2,7 +2,6 @@
 import { type LinksFunction, type MetaFunction } from "@remix-run/cloudflare";
 import Header from "~/components/shared/Header";
 import InViewFigure from "~/components/home/InViewFigure";
-import Youtube from "~/components/home/Youtube";
 import homeCssBunbleHref from "~/styles/home.scss?url";
 
 export const links: LinksFunction = () => [

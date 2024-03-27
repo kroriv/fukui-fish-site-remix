@@ -27,12 +27,12 @@ export default function Footer() {
             <h2 className={ "md:!text-left !mb-8 md:!mb-12" }>関連サイト</h2>
             <div className={ "flex flex-col gap-8" }>
               <div>
-                <p className={ "text-28ptr font-notoserifjp" }>美食福井</p>
-                <a className={ "text-20ptr text-blue-550 font-notoserifjp hover:underline" } href={ "https://bisyoku-fukui.jp/" } target={ "_blank" } rel={ "noopener noreferrer" }>https://bisyoku-fukui.jp/</a>
+                <p className={ "text-20ptr md:text-28ptr font-notoserifjp" }>美食福井</p>
+                <a className={ "text-16ptr md:text-24ptr text-blue-550 font-notoserifjp hover:underline" } href={ "https://bisyoku-fukui.jp/" } target={ "_blank" } rel={ "noopener noreferrer" }>https://bisyoku-fukui.jp/</a>
               </div>
               <div>
-                <p className={ "text-28ptr font-notoserifjp" }>プライドフィッシュ公式サイト</p>
-                <a className={ "text-20ptr text-blue-550 font-notoserifjp hover:underline" } href={ "https://www.pride-fish.jp/JPF/pref/?pk=1549616252" } target={ "_blank" } rel={ "noopener noreferrer" }>https://www.pride-fish.jp/JPF/pref/?pk=1549616252</a>
+                <p className={ "text-20ptr md:text-28ptr font-notoserifjp" }>プライドフィッシュ公式サイト</p>
+                <a className={ "text-16ptr md:text-24ptr text-blue-550 font-notoserifjp hover:underline" } href={ "https://www.pride-fish.jp/JPF/pref/?pk=1549616252" } target={ "_blank" } rel={ "noopener noreferrer" }>https://www.pride-fish.jp/JPF/pref/?pk=1549616252</a>
               </div>
             </div>
           </div>
