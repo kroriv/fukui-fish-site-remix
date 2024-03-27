@@ -38,7 +38,7 @@ export default function Page() {
           <ul className={ "list-decimal [padding-inline-start:22px] flex flex-col gap-4" }>
             <li className={ "!text-[80%]" }>本サービスは、第１条の利用者（当社が運用するサービス「ふくいのお魚つながるアプリ」に登録した会員（以下FUKUI BRAND FISH会員）を含む。）に対するサービスプログラムとなります。</li>
             <li className={ "!text-[80%]" }>会員登録を行うことにより、本サービスの全機能がご利用いただけます。</li>
-            <li className={ "!text-[80%]" }>会員登録については、当社の定める「<a href="/privacypolicy.html" className="text-[#294c81] underline">プライバシーポリシー</a>」 に同意したものとみなされます。</li>
+            <li className={ "!text-[80%]" }>会員登録については、当社の定める「<a href="/privacypolicy" className="text-[#294c81] underline">プライバシーポリシー</a>」 に同意したものとみなされます。</li>
           </ul>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function Page() {
         <div className={ "container content" }>
           <h3 className={ "font-semibold mb-4" }>第３条 利用者情報</h3>
           <ul className={ "list-decimal [padding-inline-start:22px] flex flex-col gap-4" }>
-            <li className={ "!text-[80%]" }>当社は、本サービスの利用に関連して知り得た利用者の個人情報（以下「利用者情報」）を、「個人情報の保護に関する法律」その他関連諸法令の他、別途当社が定める<a href="/privacypolicy.html" className="text-[#294c81] underline">プライバシーポリシー</a>に基づき取扱います。</li>
+            <li className={ "!text-[80%]" }>当社は、本サービスの利用に関連して知り得た利用者の個人情報（以下「利用者情報」）を、「個人情報の保護に関する法律」その他関連諸法令の他、別途当社が定める<a href="/privacypolicy" className="text-[#294c81] underline">プライバシーポリシー</a>に基づき取扱います。</li>
             <li className={ "!text-[80%]" }>当社は、利用者情報を、本サービスの提供、マーケティング、新規サービス開発、及びサービス向上の目的に使用します。</li>
             <li className={ "!text-[80%]" }>
               当社は利用者情報を原則として第三者に開示することはありませんが、以下の場合には第三者に利用者情報を提供することがあります。
