@@ -139,7 +139,7 @@ export default function Page() {
       <section>
         <div className={ "container content" }>
           <h3 className={ "font-semibold mb-4" }>【附則】</h3>
-          <p className={ "!text-[80%]" }>このご利用規約は、2021年9月13日から適用します。</p>
+          <p className={ "!text-[80%]" }>このご利用規約は、令和6年3月28日から適用します。</p>
         </div>
       </section>
       
