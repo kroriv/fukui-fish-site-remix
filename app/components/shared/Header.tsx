@@ -2,7 +2,7 @@ import { Link } from "@remix-run/react";
 import { useEffect, useState, useRef, useMemo } from "react";
 import { m, domAnimation, LazyMotion, AnimatePresence } from "framer-motion";
 import Logo from "~/components/shared/Logo";
-import Arrow from "./Arrow";
+//import Arrow from "./Arrow";
 
 export default function Header() {
   // States

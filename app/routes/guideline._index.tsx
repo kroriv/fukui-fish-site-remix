@@ -16,7 +16,7 @@ export default function Page() {
     <main id={ "guideline" }>
       <section>
         <div className={ "container content" }>
-          <h2 className={ "!text-[120%] whitespace-nowrap" }>ふくいのお魚つながるアプリご利用規約</h2>
+          <h2 className={ "!text-[120%] whitespace-nowrap" }>ご利用規約</h2>
           <p className={ "!text-[80%]" }>福井中央魚市株式会社（以下「当社」）は、当社が運営・提供するサービス「ふくいのお魚つながるアプリ」（以下「本サービス」）のご利用規約（以下「本規約」）について以下の通り定めます。</p>
         </div>
       </section>
